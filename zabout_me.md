@@ -3,12 +3,41 @@ layout: default
 title: About
 ---
 
-# About
+# About TechSecLab
 
-With a passion for bridging the gap between technology and impactful business solutions, I’m an engineering professional turned innovation strategist, helping ambitious professionals and businesses navigate the intersection of **growth, innovation & legacy**. 
+TechSecLab is a minimalist technical blog documenting the journey through blockchain security research, graph neural networks, and full-stack development. The blog serves as a knowledge base for smart contract vulnerability detection, machine learning experiments, and data engineering projects.
 
-My journey spans advanced automation systems, scientific & technological passion, and cross-functional project management, enabling organizations to transform ideas into tangible results.
+## The Mission
 
-Here on this blog, I share insights at the intersection of science, technology, and business strategy—from practical tech tips and lessons learned in complex projects, to trend analysis and tips for fostering innovation in your own team. My mission is to empower professionals and businesses to unlock their full potential in an ever-evolving digital landscape.
+This platform bridges academic research with practical implementation, sharing insights from hackathons, dissertation work, and real-world development challenges. With a passion for blockchain security and artificial intelligence, the goal is to help the community understand complex technical concepts through hands-on experimentation and clear documentation.
 
-Let’s explore the future together—one bold idea at a time.
+## Expertise Areas
+
+### Blockchain Security
+Specializing in smart contract vulnerability detection using advanced techniques including graph neural networks (GNNs). Work includes analyzing Solidity code patterns, identifying security vulnerabilities, and developing automated detection systems.
+
+### Machine Learning & AI
+Focused on applying deep learning and graph neural networks to code analysis problems. Experience with PyTorch, TensorFlow, and various ML frameworks for building practical AI solutions.
+
+### Data Engineering
+Building robust data pipelines, ETL processes, and business intelligence solutions using modern tools like PostgreSQL, dbt, and various visualization platforms.
+
+### Full-Stack Development
+Creating end-to-end solutions from backend APIs to frontend interfaces, with experience in Python, JavaScript, and various web frameworks.
+
+## Background
+
+From academic research to practical implementation, this blog represents a commitment to continuous learning and knowledge sharing in the rapidly evolving fields of blockchain technology and artificial intelligence. The content here is designed to be accessible yet technical, bridging theory and practice.
+
+## Tech Stack
+
+The blog explores and utilizes:
+- **Languages:** Python, Solidity, JavaScript, SQL
+- **ML/AI:** PyTorch, TensorFlow, scikit-learn, Graph Neural Networks
+- **Blockchain:** Ethereum, Algorand, Slither, Smart Contract Analysis
+- **Data:** PostgreSQL, dbt, ETL Pipelines
+- **Tools:** Git, Docker, Streamlit, Discord.py
+
+---
+
+Let's explore the intersection of security, AI, and blockchain together.
