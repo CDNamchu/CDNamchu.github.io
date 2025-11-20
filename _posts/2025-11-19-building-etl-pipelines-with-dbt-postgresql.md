@@ -134,6 +134,7 @@ Staging models clean and standardize raw data.
 `models/staging/stg_users.sql`:
 
 ```sql
+{% raw %}
 {{ config(materialized='view') }}
 
 with source as (
@@ -155,11 +156,13 @@ cleaned as (
 )
 
 select * from cleaned
+{% endraw %}
 ```
 
 `models/staging/stg_transactions.sql`:
 
 ```sql
+{% raw %}
 {{ config(materialized='view') }}
 
 with source as (
@@ -186,6 +189,7 @@ cleaned as (
 )
 
 select * from cleaned
+{% endraw %}
 ```
 
 ### Step 3: Intermediate Business Logic
@@ -193,6 +197,7 @@ select * from cleaned
 `models/intermediate/int_user_transaction_summary.sql`:
 
 ```sql
+{% raw %}
 {{ config(materialized='ephemeral') }}
 
 with users as (
@@ -231,6 +236,7 @@ select
     s.active_months
 from users u
 left join user_stats s on u.user_id = s.user_id
+{% endraw %}
 ```
 
 ### Step 4: Marts for Analytics
@@ -238,6 +244,7 @@ left join user_stats s on u.user_id = s.user_id
 `models/marts/core/fct_user_metrics.sql`:
 
 ```sql
+{% raw %}
 {{ config(
     materialized='table',
     indexes=[
@@ -291,6 +298,7 @@ final as (
 )
 
 select * from final
+{% endraw %}
 ```
 
 ### Step 5: Testing Your Models
@@ -348,6 +356,7 @@ dbt docs serve
 For large datasets, use incremental models:
 
 ```sql
+{% raw %}
 {{ config(
     materialized='incremental',
     unique_key='transaction_id'
@@ -358,6 +367,7 @@ select * from {{ source('raw_data', 'raw_transactions') }}
 {% if is_incremental() %}
     where transaction_date > (select max(transaction_date) from {{ this }})
 {% endif %}
+{% endraw %}
 ```
 
 ### Macros for Reusability
@@ -365,6 +375,7 @@ select * from {{ source('raw_data', 'raw_transactions') }}
 Create `macros/date_spine.sql`:
 
 ```sql
+{% raw %}
 {% macro date_spine(start_date, end_date) %}
     select
         date::date as date
@@ -374,15 +385,18 @@ Create `macros/date_spine.sql`:
         '1 day'::interval
     ) as date
 {% endmacro %}
+{% endraw %}
 ```
 
 Use it in models:
 
 ```sql
+{% raw %}
 with dates as (
     {{ date_spine('2020-01-01', 'current_date') }}
 )
 select * from dates
+{% endraw %}
 ```
 
 ## Performance Optimization
@@ -396,12 +410,14 @@ select * from dates
 ### 2. Indexing
 
 ```sql
+{% raw %}
 {{ config(
     indexes=[
         {'columns': ['user_id'], 'type': 'btree'},
         {'columns': ['created_at'], 'type': 'brin'},
     ]
 ) }}
+{% endraw %}
 ```
 
 ### 3. Partitioning
@@ -409,6 +425,7 @@ select * from dates
 For time-series data:
 
 ```sql
+{% raw %}
 {{ config(
     materialized='table',
     partition_by={
@@ -417,6 +434,7 @@ For time-series data:
         'granularity': 'month'
     }
 ) }}
+{% endraw %}
 ```
 
 ## Monitoring and Alerting
