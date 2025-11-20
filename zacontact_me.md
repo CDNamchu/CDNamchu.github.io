@@ -5,10 +5,22 @@ title: Contact
 
 # Get In Touch!
 
-I'm always open to discussing new projects, creative ideas, or opportunities to be part of something great.
+Questions, collaboration opportunities, or just want to chat about smart contract security, machine learning, or blockchain technology?
 
-The best way to reach me is through my professional network.
+### Connect with me
 
-### Connect with me on LinkedIn
+- **Email:** cypriandnamchu@gmail.com
+- **GitHub:** [CDNamchu](https://github.com/CDNamchu)
+- **LinkedIn:** [Cyprian Dyenree Namchu](https://www.linkedin.com/in/Cyprian%20Dyenree%20Namchu)
 
-You can find me on [LinkedIn](https://www.linkedin.com/in/gabriele-iacopo-langellotto-aa7095a9/). Feel free to send a connection request or a message.
+I'm always open to discussing:
+- Smart contract vulnerability detection
+- Graph neural networks and ML applications
+- Data engineering and ETL pipelines
+- Hackathon collaborations
+- Research opportunities
+- Technical writing and knowledge sharing
+
+---
+
+**Made with ❤️ for the blockchain security and data science community**
