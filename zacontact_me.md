@@ -3,24 +3,24 @@ layout: default
 title: Contact
 ---
 
-# Get In Touch!
+# Get In Touch
 
-Questions, collaboration opportunities, or just want to chat about smart contract security, machine learning, or blockchain technology?
+I'm always happy to connect with fellow developers, researchers, or anyone interested in blockchain security, machine learning, or software development.
 
-### Connect with me
+### Ways to Reach Me
 
 - **Email:** cypriandnamchu@gmail.com
 - **GitHub:** [CDNamchu](https://github.com/CDNamchu)
 - **LinkedIn:** [Cyprian Dyenree Namchu](https://www.linkedin.com/in/Cyprian%20Dyenree%20Namchu)
 
-I'm always open to discussing:
-- Smart contract vulnerability detection
-- Graph neural networks and ML applications
-- Data engineering and ETL pipelines
-- Hackathon collaborations
-- Research opportunities
-- Technical writing and knowledge sharing
+### What I'm Open To
 
----
+- Smart contract security discussions
+- ML/AI collaborations and research
+- Data engineering projects
+- Hackathon teams
+- Technical writing opportunities
+- Open source contributions
+- Just chatting about tech!
 
-**Made with ❤️ for the blockchain security and data science community**
+Feel free to reach out - I'd love to hear from you.

@@ -3,9 +3,9 @@ layout: default
 title: Blog 
 ---
 
-# Blog Posts
+# Blog
 
-Here you can browse all posts by the latest added. This page updates automatically as new posts are added to the blog so you always see something fresh.
+Writing about blockchain security, machine learning, data engineering, and software development.
 
 <div>
   <ul>

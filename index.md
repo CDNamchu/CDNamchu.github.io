@@ -3,39 +3,22 @@ layout: default
 title: Home
 ---
 
-# TechSecLab
+# Hi, I'm Cyprian 👋
 
-> A technical blog exploring smart contract security, machine learning, and data science through hands-on research and experimentation.
+I'm a software developer and researcher exploring the intersection of blockchain security, machine learning, and data engineering. I write about smart contract vulnerability detection, graph neural networks, and building practical solutions to complex problems.
 
-Welcome to TechSecLab - a minimalist technical blog documenting the journey through blockchain security research, graph neural networks, and full-stack development. This platform serves as a knowledge base for smart contract vulnerability detection, machine learning experiments, and data engineering projects.
+## What I Write About
 
-This blog bridges academic research with practical implementation, sharing insights from hackathons, dissertation work, and real-world development challenges.
+I share insights from my work in:
+- **Smart Contract Security** - Vulnerability detection, Solidity analysis, and blockchain security research
+- **Machine Learning** - Graph neural networks, deep learning, and AI applications in code analysis
+- **Data Engineering** - Building ETL pipelines, data processing, and business intelligence
+- **Software Development** - Full-stack development, hackathon projects, and technical experiments
 
-## 🎯 Content Pillars
+## Recent Posts
 
-### Smart Contract Security
-Deep dives into vulnerability detection techniques, Solidity best practices, and GNN-based analysis methods for blockchain security.
+Check out my [blog](/blog.html) for recent articles and technical deep-dives.
 
-### Machine Learning & AI
-Tutorials on graph neural networks, deep learning pipelines, and ML model development with focus on code analysis applications.
+## Connect
 
-### Data Engineering
-Practical guides covering ETL processes, database design patterns, BI pipelines using PostgreSQL, dbt, and visualization tools.
-
-### Hackathon Chronicles
-Project breakdowns, technical solutions, and collaboration insights from cybersecurity and Web3 hackathons.
-
-### Web Development
-WordPress optimization, SEO strategies, and full-stack development patterns for modern web applications.
-
-## 🛠️ Tech Stack
-
-- **Platform:** Jekyll / GitHub Pages
-- **Languages:** Python, Solidity, JavaScript, SQL
-- **Tools:** Git, Docker, Streamlit, Discord.py
-- **ML Frameworks:** PyTorch, TensorFlow, scikit-learn
-- **Blockchain:** Ethereum, Algorand, Slither
-
----
-
-**Made with ❤️ for the blockchain security and data science community**
+Find me on [GitHub](https://github.com/CDNamchu) or [LinkedIn](https://www.linkedin.com/in/Cyprian%20Dyenree%20Namchu), or reach out via [email](mailto:cypriandnamchu@gmail.com).

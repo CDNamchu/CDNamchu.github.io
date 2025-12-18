@@ -3,35 +3,32 @@ layout: default
 title: About
 ---
 
-# About TechSecLab
+# About Me
 
-TechSecLab is a minimalist technical blog documenting the journey through blockchain security research, graph neural networks, and full-stack development. The blog serves as a knowledge base for smart contract vulnerability detection, machine learning experiments, and data engineering projects.
+Hi, I'm Cyprian Dyenree Namchu, a software developer and researcher passionate about blockchain security, machine learning, and building robust data systems.
 
-## The Mission
+## What I Do
 
-This platform bridges academic research with practical implementation, sharing insights from hackathons, dissertation work, and real-world development challenges. With a passion for blockchain security and artificial intelligence, the goal is to help the community understand complex technical concepts through hands-on experimentation and clear documentation.
-
-## Expertise Areas
+I work at the intersection of security, AI, and software engineering. My current focus areas include:
 
 ### Blockchain Security
-Specializing in smart contract vulnerability detection using advanced techniques including graph neural networks (GNNs). Work includes analyzing Solidity code patterns, identifying security vulnerabilities, and developing automated detection systems.
+I specialize in smart contract vulnerability detection using graph neural networks (GNNs). My work involves analyzing Solidity code patterns, identifying security vulnerabilities, and developing automated detection systems to help secure decentralized applications.
 
 ### Machine Learning & AI
-Focused on applying deep learning and graph neural networks to code analysis problems. Experience with PyTorch, TensorFlow, and various ML frameworks for building practical AI solutions.
+I apply deep learning and graph neural networks to code analysis problems. I work with PyTorch, TensorFlow, and various ML frameworks to build practical AI solutions that solve real-world problems.
 
 ### Data Engineering
-Building robust data pipelines, ETL processes, and business intelligence solutions using modern tools like PostgreSQL, dbt, and various visualization platforms.
+I build data pipelines, ETL processes, and business intelligence solutions using modern tools like PostgreSQL, dbt, and various visualization platforms. I enjoy the challenge of turning messy data into actionable insights.
 
-### Full-Stack Development
-Creating end-to-end solutions from backend APIs to frontend interfaces, with experience in Python, JavaScript, and various web frameworks.
+### Software Development
+From backend APIs to frontend interfaces, I create end-to-end solutions using Python, JavaScript, Solidity, and SQL. I participate in hackathons and contribute to open-source projects when I can.
 
 ## Background
 
-From academic research to practical implementation, this blog represents a commitment to continuous learning and knowledge sharing in the rapidly evolving fields of blockchain technology and artificial intelligence. The content here is designed to be accessible yet technical, bridging theory and practice.
+I'm bridging academic research with practical implementation through my work in blockchain security and artificial intelligence. This blog is where I share what I'm learning, document my projects, and hopefully help others understand complex technical concepts through hands-on examples.
 
-## Tech Stack
+## Technologies I Use
 
-The blog explores and utilizes:
 - **Languages:** Python, Solidity, JavaScript, SQL
 - **ML/AI:** PyTorch, TensorFlow, scikit-learn, Graph Neural Networks
 - **Blockchain:** Ethereum, Algorand, Slither, Smart Contract Analysis
@@ -40,4 +37,4 @@ The blog explores and utilizes:
 
 ---
 
-Let's explore the intersection of security, AI, and blockchain together.
+Thanks for stopping by!
