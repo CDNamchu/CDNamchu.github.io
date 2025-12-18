@@ -2,7 +2,7 @@
    Modern Blog Styling
    ======================================== */
 
-/* Import modern fonts */
+/* Import modern fonts with performance optimization */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
 
 /* ========================================
@@ -71,7 +71,8 @@ a {
   transition: color 0.2s ease;
 }
 
-a:hover {
+a:hover,
+a:focus {
   color: var(--color-accent-hover);
   text-decoration: underline;
 }
@@ -221,7 +222,8 @@ hr {
   transition: all 0.2s ease;
 }
 
-.topic-card:hover {
+.topic-card:hover,
+.topic-card:focus-within {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   border-color: var(--color-accent);
@@ -294,11 +296,14 @@ hr {
   transition: all 0.2s ease;
 }
 
-.cta-button:hover {
+.cta-button:hover,
+.cta-button:focus {
   background-color: var(--color-accent-hover);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 102, 204, 0.2);
   text-decoration: none;
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
 }
 
 /* Connect links */
@@ -510,12 +515,15 @@ hr {
   color: var(--color-text-primary) !important;
 }
 
-.post_navi-item:hover {
+.post_navi-item:hover,
+.post_navi-item:focus {
   background-color: var(--color-bg);
   border-color: var(--color-accent);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   text-decoration: none;
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
 }
 
 .post_navi-label {
@@ -575,13 +583,17 @@ hr {
   transition: all 0.2s ease;
 }
 
-#share-buttons > div:hover {
+#share-buttons > div:hover,
+#share-buttons > div:focus {
   background-color: var(--color-accent);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 102, 204, 0.2);
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
 }
 
-#share-buttons > div:hover > svg {
+#share-buttons > div:hover > svg,
+#share-buttons > div:focus > svg {
   fill: white !important;
 }
 
@@ -731,7 +743,8 @@ hr {
   transition: all 0.2s ease;
 }
 
-.contact-method:hover {
+.contact-method:hover,
+.contact-method:focus-within {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   border-color: var(--color-accent);
