@@ -2,12 +2,24 @@
 layout: default
 ---
 
-<h1>Posts in: {{ page.category_name }}</h1>
-
-<ul>
-  {% for post in site.categories[page.category_name] %}
-    <li>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> - <span>{{ post.date | date_to_string }}</span>
-    </li>
-  {% endfor %}
-</ul>
+<div class="category-page">
+  <h1 class="category-title">{{ page.category_name }}</h1>
+  
+  <div class="category-posts">
+    {% for post in site.categories[page.category_name] %}
+      <article class="category-post-item">
+        <h2 class="category-post-title">
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </h2>
+        <div class="category-post-meta">
+          {{ post.date | date: "%B %-d, %Y" }}
+        </div>
+        {% if post.excerpt %}
+          <div class="category-post-excerpt">
+            {{ post.excerpt | strip_html | truncatewords: 30 }}
+          </div>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+</div>
